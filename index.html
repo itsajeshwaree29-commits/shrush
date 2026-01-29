@@ -3,73 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Responsive Page</title>
+    <title>Travel Explorer</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">MyWebsite</a>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">Travel Explorer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+<!-- Hero Section -->
+<div class="container-fluid bg-light text-center p-5">
+    <h1>Explore the World</h1>
+    <p class="lead">Discover beautiful places and unforgettable experiences</p>
+</div>
+
+<!-- Content Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Beach Destinations</h5>
+                    <p class="card-text">
+                        Relax on sunny beaches with crystal-clear water and peaceful vibes.
+                    </p>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <!-- Main Content -->
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4 mb-3">
-                <div class="p-4 bg-light border rounded">
-                    <h4>Column 1</h4>
-                    <p>This column adjusts automatically on different screen sizes.</p>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mountain Adventures</h5>
+                    <p class="card-text">
+                        Enjoy trekking, fresh air, and breathtaking mountain views.
+                    </p>
                 </div>
             </div>
+        </div>
 
-            <div class="col-md-4 mb-3">
-                <div class="p-4 bg-light border rounded">
-                    <h4>Column 2</h4>
-                    <p>Bootstrap grid system makes layouts responsive.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-3">
-                <div class="p-4 bg-light border rounded">
-                    <h4>Column 3</h4>
-                    <p>Works perfectly on mobile, tablet, and desktop.</p>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">City Tours</h5>
+                    <p class="card-text">
+                        Explore culture, food, and nightlife in world-famous cities.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-3 mt-5">
-        © 2026 MyWebsite | All Rights Reserved
-    </footer>
+<!-- Footer -->
+<footer class="bg-primary text-white text-center p-3 mt-5">
+    © 2026 Travel Explorer | All Rights Reserved
+</footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+
+    
